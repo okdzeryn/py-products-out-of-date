@@ -11,7 +11,7 @@ from app.main import outdated_products
             [
                 {
                     "name": "salmon",
-                    "expiration_date": datetime.date(2022, 1, 10),
+                    "expiration_date": datetime.date(2022, 2, 10),
                     "price": 600,
                 },
                 {
@@ -25,8 +25,8 @@ from app.main import outdated_products
                     "price": 160,
                 },
             ],
-            datetime.date(2022, 2, 2),  # Mocked today's date
-            ["duck"],  # Expected result: "duck" is out of date
+            datetime.date(2022, 2, 2),
+            ["duck"],
         ),
 
     ]

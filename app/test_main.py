@@ -28,7 +28,32 @@ from app.main import outdated_products
             datetime.date(2022, 2, 2),
             ["duck"],
         ),
+        (
+            [
+                {
+                    "name": "salmon",
+                    "expiration_date": datetime.date(2022, 2, 10),
+                    "price": 600,
+                },
+                {
+                    "name": "chicken",
+                    "expiration_date": datetime.date(2022, 2, 1),
+                    "price": 120,
+                },
+                {
+                    "name": "duck",
+                    "expiration_date": datetime.date(2022, 2, 2),
+                    "price": 160,
+                },
+            ],
+            datetime.date(2022, 2, 2),
+            ["chicken"],
+        ),
 
+    ],
+    ids = [
+        "1st case",
+        "2nd case"
     ]
 )
 @patch("app.main.datetime.date")

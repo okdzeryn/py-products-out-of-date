@@ -51,7 +51,7 @@ from app.main import outdated_products
         ),
 
     ],
-    ids = [
+    ids=[
         "1st case",
         "2nd case"
     ]
